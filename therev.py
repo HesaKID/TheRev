@@ -17,7 +17,7 @@ banner = '''
                                                              
 
  Reverse IP Lookup (viewdns.info)
- Coded By bL@cKID
+ Coded By bL@cKID (github.com/RamaCaptainKID)
 
 \n'''
 print(banner)
