@@ -42,6 +42,7 @@ def revip():
             domain = re.findall(r'<td>(.*?)</td>', str(td))
             for dom in domain:
                 print(dom)
+                open('revip.txt', 'a').write(dom+'\n')
 
 
 if __name__ == '__main__':
